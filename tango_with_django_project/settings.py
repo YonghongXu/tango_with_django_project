@@ -25,7 +25,7 @@ LOGIN_URL = 'rango/login/'
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '#nmfox%&r%i4ll%$rtfb6pgh&v=h4@sa4^#zgg5#fp354*#@er'
-
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
